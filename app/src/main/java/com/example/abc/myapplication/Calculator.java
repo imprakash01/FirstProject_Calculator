@@ -10,7 +10,7 @@ import android.widget.TextView;
 /**
  * Created by abc on 10/10/2017.
  */
-
+// checking with multiple user
 public class Calculator extends Activity {
 
     Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn0, btnPlus, btnMinus, btnMultiply, btnDivide, btnClear, btnEqual,
