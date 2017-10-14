@@ -22,7 +22,7 @@ public class Calculator extends Activity {
 
     int firstValue, secondValue, result;
     String operand;
-
+    //test with same line 2 user 2
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
