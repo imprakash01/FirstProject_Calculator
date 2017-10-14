@@ -13,6 +13,9 @@ import android.widget.TextView;
 
 public class Calculator extends Activity {
 
+    // TODO: 10/15/2017 Add some comment for this code.
+
+    //initialize views & variable here
     Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn0, btnPlus, btnMinus, btnMultiply, btnDivide, btnClear, btnEqual,
             btnSin, btnCos, btnTan, btnSquare;
     TextView txtOutput;
@@ -30,6 +33,8 @@ public class Calculator extends Activity {
     }
 
     private void setupView() {
+        //register all view here
+
         btn0 = (Button) findViewById(R.id.btn_0);
         btn1 = (Button) findViewById(R.id.btn_1);
         btn2 = (Button) findViewById(R.id.btn_2);
@@ -54,6 +59,7 @@ public class Calculator extends Activity {
     }
 
     private void registerListener() {
+        //register all listener for views
         btn0.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -206,10 +212,7 @@ public class Calculator extends Activity {
         btnClear.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String data = txtOutput.getText().toString();
-                if (data.length() > 0)
-                    data = data.substring(0, data.length() - 1);
-                txtOutput.setText(data);
+
             }
         });
 
@@ -221,6 +224,7 @@ public class Calculator extends Activity {
             }
         });
 
+        // Calculator app business logic.
         btnEqual.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
