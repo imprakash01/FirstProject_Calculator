@@ -10,7 +10,7 @@ import android.widget.TextView;
 /**
  * Created by abc on 10/10/2017.
  */
-
+// checking with multiple user
 public class Calculator extends Activity {
 
     // TODO: 10/15/2017 Add some comment for this code.
