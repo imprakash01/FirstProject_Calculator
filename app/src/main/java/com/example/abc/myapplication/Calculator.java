@@ -19,6 +19,7 @@ public class Calculator extends Activity {
 
     int firstValue, secondValue, result;
     String operand;
+    //test with same line 1
 
 
     @Override
